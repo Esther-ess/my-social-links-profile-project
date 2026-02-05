@@ -1,0 +1,111 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  /*colors*/
+  --body-bg: hsl(0, 0%, 8%);
+  --card-bg: hsl(0, 0%, 12%);
+  --h3-color: hsl(75, 94%, 57%);
+  --white-color: hsl(0, 0%, 100%);
+  --p-color: hsla(0, 0%, 100%, 0.804);
+  --li-color: hsl(0, 0%, 20%);
+}
+
+.container {
+  min-height: 100vh;
+  background-color: var(--body-bg);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  padding: 1rem;
+  border-radius: 12px;
+  background-color: var(--card-bg);
+  max-width: 100%;
+  width: 320px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.jessica {
+  border-radius: 50%;
+  max-width: 100px;
+  width: 100%;
+  height: auto;
+}
+
+.profile {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  align-items: center;
+}
+
+.about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+h1,
+.platforms a {
+  color: var(--white-color);
+}
+
+p {
+  color: hsla(0, 0%, 100%, 0.804);
+}
+
+h3 {
+  color: var(--h3-color);
+}
+
+.platforms a {
+  text-decoration: none;
+  display: block;
+  padding: 0.5rem;
+  text-align: center;
+  color: var(--white-color);
+  background-color: var(--li-color);
+  border-radius: 8px;
+}
+
+.platforms a:hover,
+.platforms a:active,
+.platforms a:focus {
+  color: var(--body-bg);
+  background-color: var(--h3-color);
+}
+
+ul {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+li {
+  width: 100%;
+  list-style: none;
+}
+
+.attribution {
+  color: var(--p-color);
+}
+
+.attribution a {
+  color: var(--white-color);
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+}
