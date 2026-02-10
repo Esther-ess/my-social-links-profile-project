@@ -99,10 +99,13 @@ li {
 
 .attribution {
   color: var(--p-color);
+  font-size: 11px;
+  text-align: center;
 }
 
 .attribution a {
   color: var(--white-color);
+  color: hsl(228, 45%, 44%);
 }
 
 footer {
