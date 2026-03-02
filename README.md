@@ -30,8 +30,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: https://github.com/The-Queen-Builds/my-social-links-profile-project
+- Live Site URL: https://the-queen-builds.github.io/my-social-links-profile-project/
 
 ## My process
 
@@ -59,8 +59,8 @@ The internet as well as good prompt engineering with AI helped me dymystify some
 
 ## Author
 
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+- Frontend Mentor - [@The-Queen-Builds](https://www.frontendmentor.io/profile/The-Queen-Builds)
+- Twitter - [@EbimoboereLaye](https://www.twitter.com/EbimoboereLaye)
 
 ## Acknowledgments
 
